@@ -10,4 +10,29 @@
     background-image: url(images/back.png);
     background-position: center;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .card img{
+    height: 150Px;
+    border-radius: 50%;
+}
+.card{
+  width: 90%;
+  max-width: 440px;
+  text-align: center;
+  color: #fff;
+  padding: 50px 35px;
+  border: 1px solid rgba(255,255,255,0.3);
+}
+.card h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.card p{
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 330px;
 }
